@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Poppins",sans-serif;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    margin-top: 5vh;
+}
+.nav_list{
+    margin-top:5vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+.nav_btn{
+    margin-top: 5vh;
+}
+.nav_btn button{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    padding: .3vh 1.5vh;
+}
+.beat_pic{
+    position: relative;
+}
+.beat_pic img{
+    width: 10em;
+}
+.hero-section{
+    position: absolute;
+    max-width: 17em;
+    top:15vh;
+    right:30vw;
+}
+.hero-subtitle{
+    margin: 4vh 0vh;
+}
+.overview{
+    margin: 2vh 0vh;
+}
+.overview p{
+    font-size: 2.4vh;
+    font-weight: 600;
+    color: rgb(180, 180, 173);
+}
+.hero_para{
+    margin: 2vh 0vh;
+}
+.hero-btn button{
+    padding: 1vh 2vh;
+    padding: auto;
+    background-color: rgb(56, 53, 53);
+    color: white;
+    outline: none;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-btn img{
+    width: 3vh;
+    margin: 1vh 0vh;
+    margin-right: 1vh;
+}
+.faang{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding:10vh 20vw;
+    margin:10vh 0vh;
+}
+.specs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:5vh;
+}
+.case_con_img img{
+    width:13vw;
+}
+.case_content{
+    display: flex;
+    flex-direction: row;
+    max-width: 35vw;
+}
+.case_con_para{
+    margin:auto;
+    padding: 0 3vw;
+}
+.case_con_para button img{
+    width: 2vh;
+}
+.case_con_para button{
+    margin: 1vh 0vh;
+    background-color: rgb(62, 59, 59);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1vh;
+}
+.buy_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5vh;
+}
+.wrapper{
+    display: flex;
+    padding:5vh 20vh;
+    background-color: rgb(55, 53, 53);
+}
+
+.buy_con{
+    width: 35vh;
+    margin: auto;
+    margin-right: 30px;
+}
+.buy_con h2{
+    margin: 2vh 0vh;
+}
+.buy_con p{
+    margin: 1vh 0vh;
+}
+.buy_con button{
+    margin: 1vh 0vh;
+    padding: 1vh 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    background-color: rgb(1, 1, 1);
+    color: white;
+    outline: none;
+    border: none;
+}
+.buy_img img{
+    width:25vw;
+}
+.styles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5vw;
+}
+.styles_product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5vh;
+    max-width: 40vw;
+}
+.styles_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+.headset_img{
+    width: 15vw;
+}
+.headset{
+    width: max-content;
+}
+.headset_con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+    margin-top: 5vh;
+}
+li{
+    margin: 1vh 0vh;
+}
+.search_wrap{
+    background-color: rgb(56, 54, 54); 
+    padding: 4vh 2vh;
+}
+.search_wrap button img{
+    width: 2vh;
+}
+.icons_wrap{
+    margin: 2vh 0vh;
+}
+.search_wrap button{
+    background-color: black;
+    color: antiquewhite;
+}
+
+@media (max-width:900px){
+    .beat_pic{
+        display: none;
+    }
+    .nav_list{
+        display: none; 
+    }
+    .hero-section{
+        margin: 10vh 0vh;
+        margin-bottom: 0vh;
+        position: relative;
+        top:0;
+        left: 20vw;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        /* max-width: 50vw; */
+        /* display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center; */
+    }
+    .hero-title img{
+        width: 50vw;
+    }
+    .faang{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vh;
+        align-items: center;
+    }
+    .specs_items img{
+        width: 50vw;
+    }
+    .wrapper{
+        padding: 1vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .styles_wrapper{
+        width:100%;
+    }
+    .styles_product{
+        max-width: 100%;
+        display: flex;
+    }
+    .headset_img{
+        width: 15vw;
+    }
+    .styles_img img{
+        width: 80%;
+    }
+    .case_content{
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
